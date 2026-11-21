@@ -1,0 +1,15 @@
+Levenssimulator als app op je telefoon
+======================================
+
+1. Maak op github.com een nieuwe repository, bijvoorbeeld "levenssimulator".
+2. Upload alle bestanden uit deze map (index.html, manifest.webmanifest, sw.js en de drie iconen).
+3. Ga naar Settings > Pages, kies "Deploy from a branch", branch "main", map "/ (root)" en klik Save.
+4. Na een minuutje staat de app op https://<jouw-gebruikersnaam>.github.io/levenssimulator/
+
+Op je telefoon:
+- iPhone (Safari): open de link > deelknop > "Zet op beginscherm".
+- Android (Chrome): open de link > menu (drie puntjes) > "App installeren" of "Toevoegen aan startscherm".
+
+De app opent dan schermvullend met een eigen icoon, werkt ook offline en bewaart je spel op je telefoon.
+
+Een nieuwe versie zetten? Vervang index.html en verhoog in sw.js het versienummer (levenssim-v1 > levenssim-v2).
